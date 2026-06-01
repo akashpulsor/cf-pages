@@ -1,0 +1,11 @@
+name = "dalaillama-creator-landing"
+compatibility_date = "2026-06-01"
+pages_build_output_dir = "dist"
+
+[vars]
+LEADS_ALLOWED_ORIGIN = "https://dalaillama.in"
+
+[[kv_namespaces]]
+binding = "LEADS_KV"
+id = "REPLACE_WITH_PRODUCTION_KV_NAMESPACE_ID"
+preview_id = "REPLACE_WITH_PREVIEW_KV_NAMESPACE_ID"
